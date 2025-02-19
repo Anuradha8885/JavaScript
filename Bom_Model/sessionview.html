@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sessionview</title>
+  </head>
+  <body>
+    <p id="session"></p>
+  </body>
+  <script>
+    let sessional = sessionStorage.getItem("password");
+    document.getElementById("session").innerHTML = "session:" + sessional;
+  </script>
+</html>
