@@ -43,6 +43,12 @@ while (j < 6) {
 }
 console.log("emptystr1=", emptystr1);
 
+//for loop
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
 //for of loop
 let fruits = ["apple", "cherry", "papaya"];
 for (f of fruits) {
